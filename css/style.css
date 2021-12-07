@@ -75,6 +75,12 @@
     content: url(../images/line.svg);
     margin-left: 8px;
 }
+.burger-box {
+    display: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    z-index: 2;
+}
 
 
 /* section styles */
@@ -90,32 +96,43 @@
 .title1 {
     color: #5863F8;
     font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .title2 {
     color: #000000;
     font-size: 42px;
-    width: 374px;
+    max-width: 374px;
+    width: 100%;
     height: 115px;
+    font-family: 'Roboto', sans-serif;
 }
 .text1 {
     color: #000000;
     font-size: 16px;
-    width: 444px;
+    max-width: 444px;
+    width: 100%;
     height: 78px;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 .text2 {
     color: #000000;
     font-size: 14px;
-    width: 444px;
+    max-width: 444px;
+    width: 100%;
     height: 84px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .text3 {
     color: #FFFFFF;
     font-size: 14px;
     width: 74px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .text-box {
-    width: 444px;
+    max-width: 444px;
+    width: 100%;
     height: 388px;
 }
 .readmore-box {
@@ -128,10 +145,20 @@
 }
 .image-box {
     max-width: 536px;
-    width: auto;
+    width: 100%;
     height: 461px;
 }
-.image {
+.image3-bg {
+    display: none;
+    height: auto;
+}
+.image2-bg {
+    display: none;
+}
+.image1-bg {
+    display: none;
+}
+.image1 {
     margin-right: 12px;
 }
 /* footer styles */
@@ -158,9 +185,11 @@
     z-index: 3;
 }
 .blocks-box {
-    width: 1323px;
+    max-width: 1323px;
+    width: 100%;
     height: 260px;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
 }
 .footertext-box {
@@ -179,7 +208,7 @@
 }
 .block {
     width: 260px;
-    height: 260px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,6 +221,7 @@
     color: #B1B1B1;
     font-size: 14px;
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 h5 {
     width: 180px;
@@ -199,12 +229,17 @@ h5 {
     color: #000000;
     font-size: 18px;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 .title3 {
     color: #FFFFFF;
     font-size: 42px;
-    width: 376px;
+    max-width: 376px;
+    width: 100%;
     height: 115px;
+    font-family: 'Roboto', sans-serif;
 }
 .footerbg-image {
     width: 100%;
