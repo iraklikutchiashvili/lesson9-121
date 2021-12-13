@@ -23,6 +23,11 @@
         text-align: center;
     }
 }
+@media (max-width:984px) {
+    .text1 {
+        height: auto;
+    }
+}
 @media (max-width: 768px) {
     .blocks-box {
         width: 600px;
@@ -52,6 +57,7 @@
     }
     .image-box {
         margin-top: 50px;
+        height: auto;
     }
     .nav-box {
         display: none;
@@ -63,7 +69,7 @@
 }
 @media (max-width: 480px) {
     .image-box {
-        height: 600px;
+        height: auto;
     }
     .image1 {
         display: none;
