@@ -67,6 +67,22 @@
         margin-top: 30px;
     }
 }
+@media (max-width: 555px) {
+    .image3 {
+        display: none;
+    }
+    .image3-bg {
+        height: 300px;
+        max-width: 480px;
+        width: 100%;
+        display: block;
+        background-image: url('../images/third.png');
+        -o-object-fit: cover;
+           object-fit: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+}
 @media (max-width: 480px) {
     .image-box {
         height: auto;
