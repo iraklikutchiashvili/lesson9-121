@@ -45,10 +45,10 @@
             -ms-flex-pack: center;
                 justify-content: center;
     }
-    .footer-box {
+    .section2-box {
         height: 900px;
     }
-    .footertext-box {
+    .section2text-box {
         text-align: center;
     }
     .section-box {
@@ -139,7 +139,7 @@
             -ms-flex-direction: column;
                 flex-direction: column;
     }
-    .footer-box {
+    .section2-box {
         height: auto;
     }
     .content-box {
@@ -148,7 +148,7 @@
     .blocks-box {
         height: auto;
     }
-    .footertext-box {
+    .section2text-box {
         width: auto;
         height: auto;
     }
