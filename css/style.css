@@ -461,6 +461,9 @@ h4 {
 a:link {
     color: #FFFFFF;
 }
-a:visited {
-    color: #5863F8;
+
+/* contact styles */
+.map {
+    margin: 50px auto;
+    display: flex;
 }
