@@ -467,3 +467,29 @@ a:link {
     margin: 50px auto;
     display: flex;
 }
+.bigform-box {
+    margin: 0 auto;
+    max-width: 1088px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.smallform-box {
+    max-width: 350px;
+    width: 100%;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+}
+.dbox {
+    max-width: 700px;
+    width: 100%;
+    height: 300px;
+}
+.form-box[type=text] {
+    width: 350px;
+    height: 60px;
+    background-color: #F8F8F8;
+}
